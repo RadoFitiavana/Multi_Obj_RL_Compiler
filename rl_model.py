@@ -35,7 +35,7 @@ import jax.numpy as jnp
 import jraph
 import flax.linen as nn
 
-from vae_model import CayleyDense, RowCayleyDense, ColCayleyDense
+from Multi_Obj_RL_Compiler.vae_model import CayleyDense, RowCayleyDense, ColCayleyDense
 
 
 # ---------------------------------------------------------------------------
