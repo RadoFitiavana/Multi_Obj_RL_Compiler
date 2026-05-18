@@ -33,12 +33,12 @@ from flax.training import train_state
 
 import pyzx as zx
 
-from graph_utils import (
+from Multi_Obj_RL_Compiler.graph_utils import (
     pad_graph_like,
     fair_spider_unfusion,
     get_match_data,
 )
-from data_pipeline import add_virtual_node
+from Multi_Obj_RL_Compiler.data_pipeline import add_virtual_node
 
 
 # ---------------------------------------------------------------------------
